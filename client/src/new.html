@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <title>Create post</title>
+</head>
+
+<body style="max-width: 500px; margin: auto;">
+
+    <div class="header">
+        <h1>Novo post</h1>
+        <p>Crie seu post de forma totalmente anonima</p>
+    </div>
+
+    <form>
+        <my-input style="margin-bottom: 12px;" label="Título" placeholder="Adicionar texto">
+        </my-input>
+        <my-input style="margin-bottom: 12px;" label="Conteúdo" placeholder="Adicionar texto">
+        </my-input>
+        <div class="flex justify-end gap-1">
+            <button class="btn-link">Cancelar</button>
+            <button class="btn-primary">Criar post</button>
+        </div>
+    </form>
+
+    <!-- Components imports -->
+    <script src="components/input.js"></script>
+</body>
+
+</html>
